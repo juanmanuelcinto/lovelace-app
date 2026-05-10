@@ -1,0 +1,48 @@
+Actividad práctica final
+Objetivos
+● Aplicar de forma integrada todos los conocimientos adquiridos sobre
+automatización de pruebas (unitarias y funcionales), optimización con
+IA y análisis de cobertura.
+● Diseñar, implementar y automatizar un conjunto de pruebas completo
+para un módulo funcional, utilizando herramientas de apoyo como
+GitHub Copilot, Selenium, Coverage, Codacy o DeepSource.
+● Fomentar la capacidad de análisis, selección de herramientas y toma
+de decisiones fundamentadas.
+Consigna
+Diseño e implementación de una suite de pruebas automatizadas
+asistida por IA
+Se entregará a cada grupo un módulo de software previamente desarrollado
+(por ejemplo, un sistema de autenticación o una API REST básica). El grupo
+deberá:
+1. Revisar la funcionalidad del módulo y mapear los escenarios
+posibles.
+2. Implementar pruebas unitarias y funcionales automatizadas con
+soporte de herramientas asistidas por IA.
+3. Optimizar la suite de pruebas: eliminar redundancias, maximizar
+cobertura y justificar elecciones.
+4. Integrar la ejecución de pruebas en un pipeline automatizado
+(CI/CD).
+5. Analizar y reportar métricas de calidad y cobertura.
+6. Reflexionar críticamente sobre las decisiones tomadas, los resultados
+obtenidos y las herramientas utilizadas.
+Requisitos técnicos
+Lenguaje de programación: Python, JavaScript o Java (a elección).
+Herramientas sugeridas:
+● Pruebas unitarias: unittest, pytest, Jest, JUnit
+● Pruebas funcionales: Selenium, Playwright, Testim.io
+● Asistencia con IA: GitHub Copilot, Diffblue Cover, Testim,
+DeepSource, Codacy
+● Cobertura de código: coverage.py, JaCoCo, Jest coverage
+● CI/CD: GitHub Actions, GitLab CI, Jenkins
+Entregables
+Repositorio GitHub o GitLab con:
+● Código fuente del módulo
+● Suite de pruebas unitarias y funcionales
+● Pipeline de CI funcionando
+● Informes de cobertura
+● Uso de al menos una herramienta de IA
+Informe escrito que incluya:
+● Justificación de diseño de pruebas
+● Análisis de cobertura (antes y después)
+● Capturas de pantalla de la ejecución de CI
+● Reflexión crítica sobre los resultadosx

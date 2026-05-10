@@ -1,0 +1,28 @@
+<div class="app-shell">
+  <header class="topbar">
+    <div>
+      <p class="eyebrow">Proyecto Angular + testing automatizado</p>
+      <h1>LOVELACE</h1>
+      <p class="subtitle">Auxiliar pedagógico para matemática con foco en calidad, cobertura y CI.</p>
+    </div>
+
+    <nav class="main-nav" aria-label="Secciones principales">
+      <a data-testid="nav-dashboard" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
+        Resumen
+      </a>
+      <a data-testid="nav-lesson" routerLink="/explicaciones" routerLinkActive="active">
+        Explicaciones
+      </a>
+      <a data-testid="nav-practice" routerLink="/practica" routerLinkActive="active">
+        Práctica
+      </a>
+      <a data-testid="nav-quality" routerLink="/calidad" routerLinkActive="active">
+        Calidad
+      </a>
+    </nav>
+  </header>
+
+  <main class="content">
+    <router-outlet />
+  </main>
+</div>
