@@ -4,6 +4,10 @@
 
 El presente trabajo corresponde a la actividad práctica final orientada a automatización de pruebas asistida por IA, optimización de cobertura y ejecución continua mediante CI/CD. Para resolver la consigna se desarrolló un módulo funcional web llamado `LOVELACE`, construido con Angular, centrado en un escenario de aprendizaje de matemática con explicaciones, práctica y seguimiento de progreso.
 
+La aplicación quedó publicada en:
+
+- `https://juanmanuelcinto.github.io/lovelace-app/`
+
 ## 2. Funcionalidad del módulo
 
 El módulo implementado permite:

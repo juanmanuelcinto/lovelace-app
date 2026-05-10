@@ -2,6 +2,10 @@
 
 Aplicación Angular desarrollada como entrega de la actividad práctica final sobre automatización de pruebas, cobertura, CI/CD y uso de herramientas asistidas por IA.
 
+## Aplicación publicada
+
+- `https://juanmanuelcinto.github.io/lovelace-app/`
+
 ## Objetivo del proyecto
 
 El módulo funcional implementa una SPA educativa orientada a matemática. La aplicación incluye:
@@ -83,6 +87,10 @@ El workflow de GitHub Actions:
 - publica artefactos de cobertura y reportes de Playwright
 
 ## Despliegue
+
+La aplicación también está disponible en GitHub Pages:
+
+- `https://juanmanuelcinto.github.io/lovelace-app/`
 
 Hay una opción lista para servidor con Docker y Nginx:
 
