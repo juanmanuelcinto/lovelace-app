@@ -28,12 +28,14 @@ Luego del push:
 
 ## 4. Evidencia para la entrega
 
-Tomar capturas de:
+Capturas ya incorporadas en `docs/evidencia/`:
 
-- listado de archivos del repositorio
-- workflow exitoso
-- detalle del job con tests y build
-- reporte de cobertura o artefactos
+- `01-repositorio-github.jpg`
+- `02-workflow-success.jpg`
+- `03-job-quality.jpg`
+- `04-artifacts.jpg`
+
+Si se desea ampliar la evidencia, puede agregarse además una captura del reporte HTML de cobertura.
 
 ## 5. Recomendaciones
 

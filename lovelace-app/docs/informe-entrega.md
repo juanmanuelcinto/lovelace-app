@@ -109,15 +109,29 @@ Se implementó un pipeline en GitHub Actions que:
 
 Esto garantiza validación automática ante cada push o pull request.
 
+Ejecución validada en GitHub:
+
+- commit: `5a392c2`
+- rama: `main`
+- estado: `Success`
+- duración total: `1m 19s`
+- artefactos generados: `coverage-report` y `playwright-report`
+
 ## 9. Capturas de la ejecución de CI
 
-Pendiente de completar luego del primer push al repositorio remoto.
+La evidencia de la ejecución quedó incorporada en:
 
-Se deben adjuntar al informe:
+- `docs/evidencia/01-repositorio-github.jpg`
+- `docs/evidencia/02-workflow-success.jpg`
+- `docs/evidencia/03-job-quality.jpg`
+- `docs/evidencia/04-artifacts.jpg`
 
-- captura del workflow exitoso en GitHub Actions
-- captura de los jobs ejecutados
-- captura o enlace a los artefactos de cobertura
+Estas capturas muestran:
+
+- la estructura del repositorio en GitHub
+- el workflow `ci` ejecutado con estado exitoso
+- el detalle del job `quality`
+- los artefactos publicados por el pipeline
 
 ## 10. Reflexión crítica
 
@@ -129,7 +143,7 @@ Como mejora futura, convendría:
 
 - ampliar pruebas sobre respuestas incorrectas y reinicio de progreso
 - conectar el frontend con una API real
-- conservar evidencias automáticas del pipeline en cada release
+- actualizar versiones de actions para anticipar la migración de Node.js 20 a Node.js 24 en GitHub Actions
 - desplegar la aplicación en un servidor con HTTPS y monitoreo básico
 
 ## 11. Conclusión

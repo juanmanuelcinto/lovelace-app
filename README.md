@@ -17,3 +17,4 @@ Todo el entregable técnico está dentro de:
 - [Informe de entrega](/home/juancinto/Proyectos/Curso-ia-programadores/trabajo_final/lovelace-app/docs/informe-entrega.md)
 - [Guía de despliegue](/home/juancinto/Proyectos/Curso-ia-programadores/trabajo_final/lovelace-app/docs/deploy.md)
 - [Guía para GitHub](/home/juancinto/Proyectos/Curso-ia-programadores/trabajo_final/lovelace-app/docs/github-entrega.md)
+- [Capturas de evidencia](/home/juancinto/Proyectos/Curso-ia-programadores/trabajo_final/lovelace-app/docs/evidencia)

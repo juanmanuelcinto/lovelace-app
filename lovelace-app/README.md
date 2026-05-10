@@ -47,6 +47,7 @@ e2e/lovelace.spec.ts                        Pruebas funcionales
 .github/workflows/ci.yml                    Pipeline CI
 docs/informe-entrega.md                     Informe base para presentar
 docs/deploy.md                              Guia de despliegue
+docs/evidencia/                             Capturas de GitHub y CI
 ```
 
 ## Validación realizada
