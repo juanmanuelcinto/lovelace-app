@@ -1,5 +1,26 @@
 # Despliegue
 
+## Opción GitHub Pages
+
+El repositorio ya quedó preparado con un workflow para publicar la app en GitHub Pages.
+
+URL esperada del sitio:
+
+- `https://juanmanuelcinto.github.io/lovelace-app/`
+
+Pasos en GitHub:
+
+1. Ir a `Settings > Pages`
+2. En `Source`, elegir `GitHub Actions`
+3. Hacer push a `main` o ejecutar manualmente el workflow `pages`
+4. Esperar a que termine el deploy
+
+Notas:
+
+- el workflow compila Angular con `base-href /lovelace-app/`
+- también genera un `404.html` para tolerar recargas directas en rutas internas
+- el archivo del workflow está en `.github/workflows/pages.yml`
+
 ## Opción recomendada: Docker + Nginx
 
 El proyecto incluye un `Dockerfile` multistage para compilar Angular y servir el contenido estático con Nginx.
