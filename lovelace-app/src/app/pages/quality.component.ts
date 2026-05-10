@@ -6,32 +6,32 @@ import { Component } from '@angular/core';
   template: `
     <section class="quality-grid">
       <article class="panel">
-        <p class="section-tag">Suite de pruebas</p>
-        <h2>Alcance del entregable</h2>
+        <p class="section-tag">Calidad del producto</p>
+        <h2>Verificaciones clave</h2>
         <ul>
-          <li>Pruebas unitarias sobre el servicio de sesion y el componente de practica.</li>
-          <li>Pruebas funcionales E2E con Playwright sobre navegacion y respuesta del alumno.</li>
-          <li>Generacion de cobertura con ChromeHeadless.</li>
+          <li>Comprobacion de logica en el servicio de sesion y en la pantalla de practica.</li>
+          <li>Validacion del recorrido principal del alumno entre vistas y ejercicios.</li>
+          <li>Seguimiento de cobertura para sostener una base confiable.</li>
         </ul>
       </article>
 
       <article class="panel">
-        <p class="section-tag">CI/CD</p>
-        <h2>Pipeline automatizado</h2>
+        <p class="section-tag">Operación técnica</p>
+        <h2>Automatizacion del proyecto</h2>
         <ul>
           <li><code>npm ci</code> para instalar dependencias de forma reproducible.</li>
-          <li><code>npm run test:coverage</code> para validar calidad y cobertura.</li>
-          <li><code>npm run test:e2e</code> para el flujo funcional completo.</li>
+          <li><code>npm run test:coverage</code> para validar estabilidad y cobertura.</li>
+          <li><code>npm run test:e2e</code> para revisar el flujo funcional completo.</li>
           <li><code>npm run build</code> para asegurar empaquetado correcto.</li>
         </ul>
       </article>
 
       <article class="panel">
-        <p class="section-tag">Uso de IA</p>
-        <h2>Justificacion</h2>
+        <p class="section-tag">Criterio de diseño</p>
+        <h2>Enfoque adoptado</h2>
         <p>
-          El proyecto esta preparado para documentar el uso de herramientas asistidas por IA
-          en el diseno de escenarios, generacion inicial de tests y optimizacion de cobertura.
+          La aplicacion fue organizada para mantener una experiencia clara para el alumno y una
+          base tecnica facil de extender, probar y desplegar.
         </p>
       </article>
     </section>

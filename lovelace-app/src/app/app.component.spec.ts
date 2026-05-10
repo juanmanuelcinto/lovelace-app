@@ -27,6 +27,6 @@ describe('AppComponent', () => {
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
     expect(compiled.querySelector('h1')?.textContent).toContain('LOVELACE');
-    expect(compiled.querySelectorAll('nav a').length).toBe(4);
+    expect(compiled.querySelectorAll('nav a').length).toBe(3);
   });
 });

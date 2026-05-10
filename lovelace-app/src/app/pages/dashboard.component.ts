@@ -10,11 +10,11 @@ import { LearningSessionService } from '../core/learning-session.service';
   template: `
     <section class="hero">
       <div class="hero-copy">
-        <p class="section-tag">Modulo funcional bajo prueba</p>
+        <p class="section-tag">Asistente de aprendizaje</p>
         <h2>Aprendizaje adaptativo con explicaciones, practica y seguimiento.</h2>
         <p>
-          Esta SPA modela el nucleo visible de LOVELACE y sirve como base para aplicar
-          pruebas unitarias, funcionales, cobertura y CI tal como pide el entregable.
+          LOVELACE acompaña el aprendizaje de matemática con contenidos guiados,
+          práctica inmediata y una lectura simple del progreso del alumno.
         </p>
       </div>
 
@@ -41,28 +41,28 @@ import { LearningSessionService } from '../core/learning-session.service';
         <strong>{{ session.progressSummary().accuracyPercentage }}%</strong>
       </article>
       <article>
-        <span>IA aplicada</span>
-        <strong>Diseño y optimizacion de tests</strong>
+        <span>Estilo de aprendizaje</span>
+        <strong>Visual y guiado</strong>
       </article>
     </section>
 
     <section class="grid">
       <article class="panel">
-        <h3>Escenarios a cubrir</h3>
+        <h3>Experiencia principal</h3>
         <ul>
-          <li>Navegacion entre modulos principales.</li>
-          <li>Seleccion de tema y render de explicacion adecuada.</li>
-          <li>Resolucion de ejercicios con feedback inmediato.</li>
-          <li>Actualizacion del progreso y metricas visibles.</li>
+          <li>Navegacion clara entre resumen, explicaciones y practica.</li>
+          <li>Seleccion de temas segun necesidad del alumno.</li>
+          <li>Resolucion de ejercicios con devolucion inmediata.</li>
+          <li>Seguimiento simple del avance y la exactitud.</li>
         </ul>
       </article>
 
       <article class="panel">
-        <h3>Proximos pasos del entregable</h3>
+        <h3>Proximas mejoras</h3>
         <ul>
-          <li>Pruebas unitarias sobre servicio y componente de practica.</li>
-          <li>Pruebas funcionales E2E con Playwright sobre el flujo del alumno.</li>
-          <li>Pipeline GitHub Actions para build, tests y coverage.</li>
+          <li>Mas ejercicios por tema y dificultad progresiva.</li>
+          <li>Seguimiento historico del rendimiento del alumno.</li>
+          <li>Integracion con servicios externos de contenido y evaluacion.</li>
         </ul>
       </article>
     </section>
