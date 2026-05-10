@@ -2,7 +2,6 @@
 
 Este directorio contiene:
 
-- `trabajo_final.txt`: consigna de la entrega
 - `Idea Proyecto.docx`: idea original del proyecto
 - `lovelace-app/`: aplicación Angular, pruebas, CI y documentación de entrega
 

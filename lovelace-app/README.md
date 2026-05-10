@@ -11,7 +11,7 @@ El módulo funcional implementa una SPA educativa orientada a matemática. La ap
 - Seguimiento de progreso del alumno.
 - Sección de calidad para exponer el enfoque de testing y CI.
 
-El proyecto fue diseñado para cumplir la consigna de `trabajo_final.txt`, priorizando un módulo testeable y desplegable.
+El proyecto fue diseñado para cumplir la actividad práctica final, priorizando un módulo testeable y desplegable.
 
 ## Stack técnico
 
