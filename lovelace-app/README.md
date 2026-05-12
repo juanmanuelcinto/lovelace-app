@@ -25,6 +25,7 @@ El proyecto fue diseñado para cumplir la actividad práctica final, priorizando
 - Playwright para pruebas funcionales E2E
 - GitHub Actions para CI
 - Docker + Nginx para despliegue estático
+- Mermaid para diagramas del informe
 
 ## Requisitos
 
@@ -40,6 +41,7 @@ npm run build
 npm run test:unit
 npm run test:coverage
 npm run test:e2e
+npm run capture:evidence
 ```
 
 ## Estructura relevante
@@ -48,7 +50,9 @@ npm run test:e2e
 src/app/core/learning-session.service.ts   Logica de negocio y estado
 src/app/pages/                              Pantallas funcionales
 e2e/lovelace.spec.ts                        Pruebas funcionales
+e2e/evidence.spec.ts                        Capturas funcionales para la entrega
 .github/workflows/ci.yml                    Pipeline CI
+.github/workflows/pages.yml                 Publicacion en GitHub Pages
 docs/informe-entrega.md                     Informe base para presentar
 docs/deploy.md                              Guia de despliegue
 docs/evidencia/                             Capturas de GitHub y CI
@@ -85,6 +89,7 @@ El workflow de GitHub Actions:
 - ejecuta pruebas E2E
 - compila la aplicación
 - publica artefactos de cobertura y reportes de Playwright
+- publica el sitio en GitHub Pages mediante un workflow separado
 
 ## Despliegue
 
@@ -100,3 +105,16 @@ docker run -p 8080:80 lovelace-app
 ```
 
 Ver detalle en `docs/deploy.md`.
+
+## Seguridad aplicada
+
+- headers HTTP en Nginx: `CSP`, `X-Frame-Options`, `X-Content-Type-Options`, `Referrer-Policy` y `Permissions-Policy`
+- rutas SPA resueltas con `try_files` para evitar errores de navegación directa
+- arquitectura estática sin backend ni credenciales embebidas
+- renderizado Angular con escape por defecto para minimizar riesgos de XSS
+
+## Informe final
+
+La versión ampliada del informe de entrega, con diagramas UML, seguridad, uso de IA y capturas funcionales, está en:
+
+- `docs/informe-entrega.md`

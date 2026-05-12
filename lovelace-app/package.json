@@ -9,7 +9,8 @@
     "test": "npm run test:unit",
     "test:unit": "ng test --watch=false --browsers=ChromeHeadless",
     "test:coverage": "ng test --watch=false --browsers=ChromeHeadless --code-coverage",
-    "test:e2e": "playwright test"
+    "test:e2e": "playwright test",
+    "capture:evidence": "playwright test e2e/evidence.spec.ts --workers=1"
   },
   "private": true,
   "dependencies": {

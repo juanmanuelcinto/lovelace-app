@@ -73,6 +73,7 @@ Si el servidor usa Nginx o Traefik como reverse proxy general:
 - correr el contenedor en un puerto interno, por ejemplo `8080`
 - exponer el dominio mediante el proxy
 - agregar HTTPS con Let's Encrypt
+- conservar los headers de seguridad definidos en `nginx/default.conf`
 
 ## Verificaciones posteriores
 
@@ -86,3 +87,4 @@ curl http://localhost
 
 - La app es estática luego del build, por lo que no requiere Node.js en runtime.
 - Si se usa un subpath en vez de raíz `/`, habrá que ajustar `base href` en Angular.
+- La configuración Nginx incluye `Content-Security-Policy`, `X-Frame-Options`, `X-Content-Type-Options`, `Referrer-Policy` y `Permissions-Policy`.
